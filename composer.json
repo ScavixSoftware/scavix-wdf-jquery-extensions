@@ -1,15 +1,14 @@
 {
-	"name": "scavix/wdf-jquery-extensions",
-	"version": "1.0.0",
-	"description": "Additional jqQuery controls",
-	"type": "library",
-	"license": "LGPL-3.0-or-later",
-	"autoload": {
-		"files": [
-			"bootstrap.php"
-		]
-	},
-	"require": {
-        "scavix/wdf-core": "^1.0.0"
-	}
+  "name": "scavix/wdf-jquery-extensions",
+  "description": "Additional jqQuery controls",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require": {
+    "scavix/wdf-core": "^1.0.0"
+  }
 }
