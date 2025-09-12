@@ -47,13 +47,13 @@ class uiStarSelect extends uiControl
 	private $_value = 3;
 	public $_content;
 
-	public $_scale = array(
-		1=>"TXT_VERY_POOR",
-		2=>"TXT_NOT_THAT_BAD",
-		3=>"TXT_AVERAGE",
-		4=>"TXT_GOOD",
-		5=>"TXT_PERFECT"
-	);
+	public $_scale = [
+        1 => "TXT_VERY_POOR",
+        2 => "TXT_NOT_THAT_BAD",
+        3 => "TXT_AVERAGE",
+        4 => "TXT_GOOD",
+        5 => "TXT_PERFECT"
+    ];
 
 	/**
 	 * @param array $options See http://plugins.jquery.com/project/Star_Rating_widget

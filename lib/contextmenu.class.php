@@ -44,11 +44,11 @@ class ContextMenu extends Control
     private $_bindings = [];
     private $_menuitems = [];
     private $_leftclick = false;
-    private $_defaults = array(
-        'menuStyle'=>"listStyle: 'none',padding: '1px', margin: '0px', backgroundColor: '#fff', border: '1px solid #999'",
-        'itemStyle'=>"margin: '0px', color: '#000', display: 'block', cursor: 'default', padding: '3px', border: '1px solid #fff', backgroundColor: 'transparent'",
-        'itemHoverStyle'=>"border: '1px solid #0a246a', backgroundColor: '#b6bdd2'"
-    );
+    private $_defaults = [
+        'menuStyle' => "listStyle: 'none',padding: '1px', margin: '0px', backgroundColor: '#fff', border: '1px solid #999'",
+        'itemStyle' => "margin: '0px', color: '#000', display: 'block', cursor: 'default', padding: '3px', border: '1px solid #fff', backgroundColor: 'transparent'",
+        'itemHoverStyle' => "border: '1px solid #0a246a', backgroundColor: '#b6bdd2'"
+    ];
 
     function __construct()
 	{
