@@ -1,0 +1,417 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-09-17T07:14:08.246Z",
+    "manufacturer": {
+      "name": "Scavix Software GmbH & Co. KG",
+      "url": [
+        "https://www.scavix.com"
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-jquery-extensions@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-jquery-extensions@1.0.1",
+      "group": "scavix",
+      "name": "wdf-jquery-extensions",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Additional jqQuery controls"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-jquery-extensions@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-jquery-extensions@1.0.1",
+      "group": "scavix",
+      "name": "wdf-jquery-extensions",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Additional jqQuery controls"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "purl": "pkg:composer/scavix/wdf-core@1.0.2",
+      "group": "scavix",
+      "name": "wdf-core",
+      "version": "1.0.2",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Core components"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "purl": "pkg:composer/scavix/lessphp@v0.8.1",
+      "group": "scavix",
+      "name": "lessphp",
+      "version": "v0.8.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Leaf Corcoran",
+          "email": "leafot@gmail.com"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "description": "lessphp is a compiler for LESS written in PHP."
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery@3.7.1",
+      "group": "external",
+      "name": "jQuery",
+      "version": "3.7.1",
+      "description": "jQuery is a fast, small, and feature-rich JavaScript library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jquery.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery@3.7.1/res/jquery.js",
+          "group": "files",
+          "name": "res/jquery.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://code.jquery.com/jquery-3.7.1.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery UI@1.14.1",
+      "group": "external",
+      "name": "jQuery UI",
+      "version": "1.14.1",
+      "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jqueryui.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI@1.14.1/res/jquery-ui/jquery-ui.js",
+          "group": "files",
+          "name": "res/jquery-ui/jquery-ui.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:ContextMenu@r2",
+      "group": "external",
+      "name": "ContextMenu",
+      "version": "r2",
+      "description": "[DISCONTINUED] jQuery plugin for right-click context menus",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:ContextMenu@r2/res/jquery.contextmenu.r2.js",
+          "group": "files",
+          "name": "res/jquery.contextmenu.r2.js"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery UI Stars@2.1.1",
+      "group": "external",
+      "name": "jQuery UI Stars",
+      "version": "2.1.1",
+      "description": "[DISCONTINUED] A star rating plugin for jQuery UI",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI Stars@2.1.1/res/ui.stars.js",
+          "group": "files",
+          "name": "res/ui.stars.js"
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI Stars@2.1.1/res/ui.stars.css",
+          "group": "files",
+          "name": "res/ui.stars.css"
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI Stars@2.1.1/res/uistars/ui.stars.gif",
+          "group": "files",
+          "name": "res/uistars/ui.stars.gif"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery Timepicker Addon@1.6.3",
+      "group": "external",
+      "name": "jQuery Timepicker Addon",
+      "version": "1.6.3",
+      "description": "[UNMAINTAINED] The timepicker addon adds a timepicker to jQuery UI Datepicker",
+      "authors": [
+        {
+          "name": "Trent Richardson"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/trentrichardson/jQuery-Timepicker-Addon"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery Timepicker Addon@1.6.3/res/ui.datetimepicker.js",
+          "group": "files",
+          "name": "res/ui.datetimepicker.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery Timepicker Addon@1.6.3/res/ui.datetimepicker.css",
+          "group": "files",
+          "name": "res/ui.datetimepicker.css",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.css"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:ThickBox@3.1",
+      "group": "external",
+      "name": "ThickBox",
+      "version": "3.1",
+      "description": "ThickBox is a webpage UI dialog widget written in JavaScript on top of the jQuery library. Its function is to show a single image, multiple images, inline content, iframed content, or content served through AJAX in a hybrid modal.",
+      "authors": [
+        {
+          "name": "Cody Lindley"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://codylindley.com/thickbox"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:ThickBox@3.1/res/thickbox.js",
+          "group": "files",
+          "name": "res/thickbox.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://codylindley.com/thickbox/thickbox-code/thickbox.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:ThickBox@3.1/res/thickbox.css",
+          "group": "files",
+          "name": "res/thickbox.css",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://codylindley.com/thickbox/thickbox-code/thickbox.css"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:composer/scavix/wdf-jquery-extensions@1.0.1",
+      "dependsOn": [
+        "pkg:composer/scavix/wdf-core@1.0.2",
+        "external:ContextMenu@r2",
+        "external:jQuery UI Stars@2.1.1",
+        "external:jQuery Timepicker Addon@1.6.3",
+        "external:ThickBox@3.1"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "dependsOn": [
+        "pkg:composer/scavix/lessphp@v0.8.1",
+        "external:jQuery@3.7.1",
+        "external:jQuery UI@1.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "dependsOn": []
+    }
+  ]
+}
