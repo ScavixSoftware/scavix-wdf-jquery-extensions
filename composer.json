@@ -1,84 +1,77 @@
 {
-	"name": "scavix/wdf-jquery-extensions",
-	"version": "1.0.2",
-	"description": "Additional jqQuery controls",
-	"type": "library",
-	"license": "LGPL-3.0-or-later",
-    "authors": [
-		{
-			"name": "Scavix Software GmbH & Co. KG",
-			"email": "info@scavix.com",
-			"homepage": "http://www.scavix.com/"
-		},
-		{
-			"name": "Christoph Bünger",
-			"homepage": "https://github.com/christophbue"
-		},
-		{
-			"name": "Daniel Spors",
-			"homepage": "https://github.com/DaSpors"
-		}
-	],
-	"autoload": {
-		"files": [
-			"bootstrap.php"
-		]
-	},
-	"require": {
-        "scavix/wdf-core": "^1.0.2"
-	},
-    "extra":
+  "name": "scavix/wdf-jquery-extensions",
+  "description": "Additional jqQuery controls",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
     {
-        "externals":
-        [
-            {
-                "name": "ContextMenu",
-                "version": "r2",
-                "description": "[DISCONTINUED] jQuery plugin for right-click context menus",
-                "license": "MIT",
-                "files":
-                {
-                    "res/jquery.contextmenu.r2.js":""
-                }
-            },
-            {
-                "name": "jQuery UI Stars",
-                "version": "2.1.1",
-                "description": "[DISCONTINUED] A star rating plugin for jQuery UI",
-                "license": "MIT",
-                "files":
-                {
-                    "res/ui.stars.js":"",
-                    "res/ui.stars.css":"",
-                    "res/uistars/ui.stars.gif":""
-                }
-            },
-            {
-                "name": "jQuery Timepicker Addon",
-                "version": "1.6.3",
-                "homepage": "https://github.com/trentrichardson/jQuery-Timepicker-Addon",
-                "description": "[UNMAINTAINED] The timepicker addon adds a timepicker to jQuery UI Datepicker",
-                "license": "MIT",
-                "author": "Trent Richardson",
-                "files":
-                {
-                    "res/ui.datetimepicker.js":"https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.js",
-                    "res/ui.datetimepicker.css":"https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.css"
-                }
-            },
-            {
-                "name": "ThickBox",
-                "version": "3.1",
-                "homepage": "https://codylindley.com/thickbox",
-                "description": "ThickBox is a webpage UI dialog widget written in JavaScript on top of the jQuery library. Its function is to show a single image, multiple images, inline content, iframed content, or content served through AJAX in a hybrid modal.",
-                "license": "MIT",
-                "author": "Cody Lindley",
-                "files":
-                {
-                    "res/thickbox.js":"https://codylindley.com/thickbox/thickbox-code/thickbox.js",
-                    "res/thickbox.css":"https://codylindley.com/thickbox/thickbox-code/thickbox.css"
-                }
-            }
-        ]
+      "name": "Scavix Software GmbH & Co. KG",
+      "email": "info@scavix.com",
+      "homepage": "http://www.scavix.com/"
+    },
+    {
+      "name": "Christoph Bünger",
+      "homepage": "https://github.com/christophbue"
+    },
+    {
+      "name": "Daniel Spors",
+      "homepage": "https://github.com/DaSpors"
     }
+  ],
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require": {
+    "scavix/wdf-core": "^1.0.2"
+  },
+  "extra": {
+    "externals": [
+      {
+        "name": "ContextMenu",
+        "version": "r2",
+        "description": "[DISCONTINUED] jQuery plugin for right-click context menus",
+        "license": "MIT",
+        "files": {
+          "res/jquery.contextmenu.r2.js": ""
+        }
+      },
+      {
+        "name": "jQuery UI Stars",
+        "version": "2.1.1",
+        "description": "[DISCONTINUED] A star rating plugin for jQuery UI",
+        "license": "MIT",
+        "files": {
+          "res/ui.stars.js": "",
+          "res/ui.stars.css": "",
+          "res/uistars/ui.stars.gif": ""
+        }
+      },
+      {
+        "name": "jQuery Timepicker Addon",
+        "version": "1.6.3",
+        "homepage": "https://github.com/trentrichardson/jQuery-Timepicker-Addon",
+        "description": "[UNMAINTAINED] The timepicker addon adds a timepicker to jQuery UI Datepicker",
+        "license": "MIT",
+        "author": "Trent Richardson",
+        "files": {
+          "res/ui.datetimepicker.js": "https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.js",
+          "res/ui.datetimepicker.css": "https://unpkg.com/jquery-ui-timepicker-addon@1.6.3/dist/jquery-ui-timepicker-addon.css"
+        }
+      },
+      {
+        "name": "ThickBox",
+        "version": "3.1",
+        "homepage": "https://codylindley.com/thickbox",
+        "description": "ThickBox is a webpage UI dialog widget written in JavaScript on top of the jQuery library. Its function is to show a single image, multiple images, inline content, iframed content, or content served through AJAX in a hybrid modal.",
+        "license": "MIT",
+        "author": "Cody Lindley",
+        "files": {
+          "res/thickbox.js": "https://codylindley.com/thickbox/thickbox-code/thickbox.js",
+          "res/thickbox.css": "https://codylindley.com/thickbox/thickbox-code/thickbox.css"
+        }
+      }
+    ]
+  }
 }
