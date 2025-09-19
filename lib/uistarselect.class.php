@@ -82,7 +82,6 @@ class uiStarSelect extends uiControl
 			$labTitle = new Label($title);
 			$labTitle->class = "userrating";
 
-			$caption_element = "<span id='".$this->Options['captionEl']."'></span>";
 			$caption = ", captionEl: $('#".$this->Options['captionEl']."')}";
 
 			unset($this->Options['captionEl']);
@@ -93,7 +92,6 @@ class uiStarSelect extends uiControl
 
 			$this->content($labTitle);
 			$this->content($this->CreateSelect($this->id."_select"));
-			//$this->_content[] = "&nbsp;&nbsp;(".$caption_element.")";
 		}
 		else
 		{
@@ -140,9 +138,9 @@ class uiStarSelect extends uiControl
 	 */
 	public function SetCaption($caption_title=null)
 	{
-		$this->Options['captionEl'] = "stars-cap".$this->id;
+		$this->Options['captionEl'] = "stars-cap{$this->id}";
 
-		if( !is_null($caption_title) )
+		if($caption_title !== null )
 			$this->Options['captionTitle'] = $caption_title;
 	}
 }

@@ -100,8 +100,8 @@ class ContextMenu extends Control
      */
     public function AddMenuItem($id,$bindingfunction="",$title="",$img="")
 	{
-		$this->_menuitems[] = "<li id='".$id."'>".$img." ".$title."</li>";
-        $this->_bindings["$id"] = $bindingfunction;
+		$this->_menuitems[] = "<li id='{$id}'>{$img} {$title}</li>";
+        $this->_bindings["{$id}"] = $bindingfunction;
 	}
 
     /**
@@ -154,7 +154,7 @@ class ContextMenu extends Control
      */
     public function AddDefault($defaultname,$value)
     {
-        $this->_defaults["$defaultname"] = $value;
+        $this->_defaults["{$defaultname}"] = $value;
     }
 
     /**
@@ -184,7 +184,7 @@ class ContextMenu extends Control
     {
         $bindings = " bindings: {";
         foreach($this->_bindings as $bindingsid => $function)
-            $bindings .= "'".$bindingsid."': function(t){ ".$function." },";
+            $bindings .= "'$bindingsid': function(t){ $function },";
 
         $bindings = rtrim($bindings,",")."}";
 
@@ -196,7 +196,7 @@ class ContextMenu extends Control
         $defaults = "";
 
         foreach($this->_defaults as $defaultid => $value)
-            $defaults .= "'".$defaultid."': { ".$value." },";
+            $defaults .= "'$defaultid': { $value },";
 
         $defaults = rtrim($defaults,",");
 

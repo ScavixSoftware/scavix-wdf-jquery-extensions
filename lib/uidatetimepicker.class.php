@@ -53,7 +53,7 @@ class uiDateTimePicker extends uiDatePicker
 	 */
     function setValue($value)
     {
-        $value = ($value?:false);
+        $value = $value ?: false;
         if( $this->type == 'text' )
             $this->value = $value;
         else
