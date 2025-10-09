@@ -180,12 +180,13 @@ $.widget("ui.stars",
     /*
      * Clean up to avoid memory leaks in certain versions of IE 6
      */
-    $(window).unload(function(){
-      self.$cancel.unbind(".stars");
-      self.$stars.unbind(".stars");
-      self.$form.unbind(".stars");
-      self.$selec = self.$rboxs = self.$stars = self.$value = self.$cancel = self.$form = null;
-    });
+    if($(window).unload)
+        $(window).unload(function(){
+        self.$cancel.unbind(".stars");
+        self.$stars.unbind(".stars");
+        self.$form.unbind(".stars");
+        self.$selec = self.$rboxs = self.$stars = self.$value = self.$cancel = self.$form = null;
+        });
 
 
     /*
