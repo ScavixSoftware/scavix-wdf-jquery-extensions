@@ -34,8 +34,8 @@ use ScavixWDF\Reflection\Attributes\Resource;
  *
  * See http://trentrichardson.com/examples/timepicker/
  */
-#[Resource('jquery-ui/ui.datetimepicker.js')]
-#[Resource('jquery-ui/ui.datetimepicker.css')]
+#[Resource('ui.datetimepicker.js')]
+#[Resource('ui.datetimepicker.css')]
 class uiDateTimePicker extends uiDatePicker
 {
 	/**

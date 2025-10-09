@@ -41,8 +41,8 @@ default_string('TXT_PERFECT', 'Perfect');
  *
  * See http://plugins.jquery.com/project/Star_Rating_widget
  */
-#[Resource('jquery-ui/ui.stars.js')]
-#[Resource('jquery-ui/ui.stars.css')]
+#[Resource('ui.stars.js')]
+#[Resource('ui.stars.css')]
 class uiStarSelect extends uiControl
 {
 	private $_value = 3;
