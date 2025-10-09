@@ -27,13 +27,15 @@
  */
 namespace ScavixWDF\JQueryUI;
 
+use ScavixWDF\Reflection\Attributes\Resource;
+
 /**
  * A jQueryUI date and time picker control.
  *
  * See http://trentrichardson.com/examples/timepicker/
- * @attribute[Resource('ui.datetimepicker.js')]
- * @attribute[Resource('ui.datetimepicker.css')]
  */
+#[Resource('jquery-ui/ui.datetimepicker.js')]
+#[Resource('jquery-ui/ui.datetimepicker.css')]
 class uiDateTimePicker extends uiDatePicker
 {
 	/**

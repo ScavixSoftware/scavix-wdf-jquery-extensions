@@ -31,12 +31,12 @@
 namespace ScavixWDF\Controls;
 
 use ScavixWDF\Base\Control;
+use ScavixWDF\Reflection\Attributes\Resource;
 
 /**
  * Wraps a context menu.
- *
- * @attribute[Resource('jquery.contextmenu.r2.js')]
  */
+#[Resource('jquery.contextmenu.r2.js')]
 class ContextMenu extends Control
 {
 	public $_content = [];

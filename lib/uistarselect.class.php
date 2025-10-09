@@ -29,6 +29,7 @@ namespace ScavixWDF\JQueryUI;
 
 use ScavixWDF\Controls\Form\Label;
 use ScavixWDF\Controls\Form\Select;
+use ScavixWDF\Reflection\Attributes\Resource;
 
 default_string('TXT_VERY_POOR', 'Poor');
 default_string('TXT_NOT_THAT_BAD', 'Bad');
@@ -39,9 +40,9 @@ default_string('TXT_PERFECT', 'Perfect');
  * Wraps a jQueryUI 'Star-Rating' control.
  *
  * See http://plugins.jquery.com/project/Star_Rating_widget
- * @attribute[Resource('ui.stars.js')]
- * @attribute[Resource('ui.stars.css')]
  */
+#[Resource('jquery-ui/ui.stars.js')]
+#[Resource('jquery-ui/ui.stars.css')]
 class uiStarSelect extends uiControl
 {
 	private $_value = 3;
