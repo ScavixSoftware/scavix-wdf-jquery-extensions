@@ -32,6 +32,5 @@ Wdf::RegisterPackage('jquery_extensions', 'jquery_extensions_init');
  */
 function jquery_extensions_init()
 {
-    classpath_add(__DIR__ . '/lib');
     add_wdfresource_dir(__DIR__ . '/res');
 }
